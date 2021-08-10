@@ -66,7 +66,7 @@ fun MessageCard (msg:Message) {
             }
 
         }
-        Row() {
+        Row(modifier = Modifier.padding(8.dp).fillMaxWidth(),horizontalArrangement = Arrangement.Center,verticalAlignment = Alignment.CenterVertically) {
             Button(onClick = { /*TODO*/ }){
                 Text("Név kiírás")
 
